@@ -4,9 +4,45 @@
 
 html {
   height: 100%;
+  background-color: lightseagreen;
 }
 
 body {
   margin: 0;
   min-height: 100%;
+  color: rgb(30, 34, 34);
+}
+
+.header {
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(30, 34, 34);
+}
+.playing-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.winner-section {
+  text-align: center;
+  margin-top: 8%;
+}
+
+.card-placeholder {
+  width: 168px;
+  height: 245px;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.winner {
+  color: rgb(116, 12, 12);
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.total {
+  text-align: center;
 }
